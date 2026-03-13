@@ -1,0 +1,29 @@
+{
+  "clientes": {
+    "cliente1": {
+      "id": "cliente1",
+      "nombre": "Cristian",
+      "saldo": 500000,
+      "preferenciaNotificacion": "email",
+      "fondosSuscritos": []
+    }
+  },
+  "fondos": {
+    "fondo1": {
+      "id": "fondo1",
+      "nombre": "FPV_BTG_PACTUAL_RECAUDADORA",
+      "montoMinimo": 75000,
+      "categoria": "FPV"
+    }
+  },
+  "transacciones": {
+    "tx1": {
+      "id": "tx1",
+      "clienteId": "cliente1",
+      "fondoId": "fondo1",
+      "tipo": "apertura",
+      "monto": 75000,
+      "fecha": "2026-03-13T10:30:00"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "info": {
+    "name": "Fondos API - Cancelar",
+    "_postman_id": "12345678-abcd-efgh-ijkl-987654321000",
+    "description": "Colección para probar la cancelación de fondos",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Cancelar Fondo1",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/fondos/fondo1/cancelar?clienteId=cliente1&monto=50000",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["fondos", "fondo1", "cancelar"],
+          "query": [
+            {
+              "key": "clienteId",
+              "value": "cliente1"
+            },
+            {
+              "key": "monto",
+              "value": "50000"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
